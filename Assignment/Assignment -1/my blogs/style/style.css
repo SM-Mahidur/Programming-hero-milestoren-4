@@ -9,13 +9,13 @@ img{
     max-width: 1100px;
     margin: 0 auto;
 }
-nav>ul{
+nav > ul{
     display: flex;
     gap: 45px;
     justify-content: center;
     padding: 30px 15px;
 }
-nav>ul>li{
+nav > ul >li{
     list-style-type: none;
 }
 nav ul li a{
@@ -76,4 +76,24 @@ caption{
 }
 tfoot{
     background: #4ea164;
+}
+
+/* nested menu  */
+
+nav li{
+    padding: 15px;
+}
+nav li:hover{
+    background-color: #a35858;
+}
+nav ul .aboutChild{
+    display: none;
+    position: absolute;
+    background-color: #4ea164;
+    color: #120101;
+    margin-top: 15px;
+    
+}
+nav ul li:hover > .aboutChild {
+    display: block;   
 }
