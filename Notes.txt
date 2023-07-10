@@ -1,0 +1,15 @@
+Mileston -4 :
+
+1. Semantic tags:
+	1. header	
+	2. nav
+	3. main
+	4. article
+	5. section
+	6. aside
+	7. footer
+2. audio tag , video tag, iframe tag, controls, youtube video add website
+3. html5 main 3 tags : header, main, footer
+4. navigation menu create
+5. <small> tag & copy right simble write: &copy; <time ="datetime"> tag
+6. <figure>,<figcaption>,section,article,
